@@ -10,10 +10,10 @@ function App() {
   return (
     <main id="main">
       <div className="leftPort">
-        <ImageProfile image="/src/assets/react.svg" />
+        <ImageProfile image="/src/assets/profile.png" />
 
-        <Title title="Thanadet Kaewsri (Matt)">
-          <h3>ตำแหน่ง : Frontend</h3>
+        <Title title="Kanyapat Lamphoopuang (Ancia)">
+          <h3>ตำแหน่ง : UX/UI</h3>
         </Title>
 
         <Title title="Contact">
@@ -26,8 +26,8 @@ function App() {
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
           </button>
-          <p>Email : mattssru@gmail.com</p>
-          <p>www.mattssru@gmail.com</p>
+          <p>Email : s64122202012@ssru.ac.th</p>
+          <p>www.s64122202012@ssru.ac.th</p>
         </Title>
     
         <Title title="Education">
@@ -38,19 +38,25 @@ function App() {
 
       <div className="rightPort">
         <Title title="Profile">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas natus soluta debitis nihil placeat, molestiae quae distinctio. Corporis dolores sit similique vitae dignissimos rerum saepe dolorem laboriosam rem impedit.</p>
+          <p></p>
         </Title>
 
         <Title title="Work Experience">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis eligendi cumque, laborum dolore error at, excepturi eum distinctio iste facere obcaecati natus impedit eaque eveniet nulla? Cupiditate, blanditiis in?</p>
+          <p>Accountant At JKP of Technology company Limited, I am responsible for document preparation and coordinating with the production department.
+
+
+
+
+</p>
         </Title>
 
         <Title title="Skills">
-          <p>HTML / CSS / JS</p>
-          <p>React.js</p>
-          <p>Next.js</p>
-          <p>Vue.js</p>
-          <p>Git</p>
+          <p>Adobe Premiere Pro </p>
+          <p>Adobe Illustrator </p>
+          <p>Adobe Lightroom </p>
+          <p>Autodesk Inventor</p>
+          <p>Adobe XD</p>
+          <p>Figma</p>
         </Title>
       </div>
     </main>
@@ -58,3 +64,4 @@ function App() {
 }
 
 export default App
+
